@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/chill"
+    tools:context="com.example.jadwalsholatku.myredirect">
+
+    <LinearLayout
+        android:id="@+id/LinearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="#70FDFCFC"
+        android:orientation="vertical">
+
+
+
+        <ImageView
+            android:layout_width="201dp"
+            android:layout_height="201dp"
+            android:layout_gravity="center"
+            android:background="@drawable/masjid"
+            android:layout_marginBottom="50dp"/>
+
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="260dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dip"
+            android:background="@drawable/btn_selector_shape"
+            android:text="@string/gb2"
+            android:textColor="#ffffff"
+            android:textSize="20dip" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="260dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dip"
+            android:background="@drawable/btn_selector_shape"
+            android:text="@string/gb4"
+            android:textColor="#ffffff"
+            android:textSize="20dip" />
+
+        <Button
+
+            android:id="@+id/button5"
+            android:layout_width="260dp"
+            android:layout_height="66dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dip"
+            android:background="@drawable/btn_selector_shape"
+            android:text="Mencari Masjid Terdekat"
+            android:textColor="#ffffff"
+            android:textSize="20dip" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">JadwalSholatku</string>
+    <string name="gb1">Jadwal Sholat</string>
+    <string name="gb2">Jadwal Sholat</string>
+    <string name="gb3">Arah Kiblat</string>
+    <string name="gb4">Tentang Kami</string>
+    <string name="gb5">Keluar</string>
+    <string name="title_activity_alarm">alarm</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="tentang"><b>Kami membuat aplikasi ini bertujuan untuk memudahkan para user dalam melakukan ibadah sholat.
+        jadi kami disini memberikan fitur seperti alarm sholat, arah kiblat, dan redirect ke masjid terdekat untuk mencari dimana letak masjid terdekat disekitar anda.</b></string>
+        <!--<string name="app_name">Jadwal Sholat Ku</string>-->
+        <string name="jadwalsholat">Jadwal Sholat</string>
+        <string name="kiblat">Kompas Kiblat</string>
+        <string name="title_activity_home">Home</string>
+        <!--<string name="navigation_drawer_open">Open navigation drawer</string>-->
+        <!--<string name="navigation_drawer_close">Close navigation drawer</string>-->
+        <!--<string name="nav_header_title">Android Studio</string>-->
+        <!--<string name="nav_header_subtitle">android.studio@android.com</string>-->
+        <!--<string name="nav_header_desc">Navigation header</string>-->
+        <!--<string name="action_settings">Settings</string>-->
+
+        <string name="kompas">Kompas Kiblat</string>
+        <!--<string name="tentang">Tentang</string>-->
+        <string name="lokasi">Lokasi Masjid Terdekat</string>
+
+        <!--<string name="menu_home">Home</string>-->
+        <!--<string name="menu_gallery">Gallery</string>-->
+        <!--<string name="menu_slideshow">Slideshow</string>-->
+        <!--<string name="menu_tools">Tools</string>-->
+        <!--<string name="menu_share">Share</string>-->
+        <!--<string name="menu_send">Send</string>-->
+        <string name="tujuan">Aplikasi ini dibuat untuk mempermudah dalam hal aktifitas
+        sebagai melihat waktu/jadwal sholat , juga dapat melihat
+        kompas kiblat, serta dapat mengakses lokasi masjid terdekat sesuai dengan lokasi user.</string>
+
+
+        <string name="hak">©2019 Jadwal Sholat Ku Created by Fauzan Abdullah</string>
+</resources>

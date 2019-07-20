@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jadwalsholatku">
+
+    <uses-permission android:name="android.permission.ACCESS_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/masjid"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".fb"
+            android:parentActivityName=".contact"
+            android:label="Facebook"
+            android:theme="@style/semua">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".contact"/>
+        </activity>
+
+        <activity
+            android:name=".yt"
+            android:parentActivityName=".contact"
+            android:label="Youtube"
+            android:theme="@style/semua">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".contact"/>
+        </activity>
+
+        <activity
+            android:name=".contact"
+            android:parentActivityName=".layoutpertama"
+            android:label="@string/app_name"
+            android:theme="@style/semua">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".layoutpertama"/>
+        </activity>
+
+        <activity
+            android:name=".myredirect"
+            android:parentActivityName=".layoutpertama"
+            android:label="@string/app_name"
+            android:theme="@style/semua">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".layoutpertama"/>
+        </activity>
+
+        <activity
+            android:name=".jadwalsholat"
+            android:parentActivityName=".layoutpertama"
+            android:label="@string/app_name"
+            android:theme="@style/semua">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".layoutpertama"/>
+        </activity>
+
+        <activity
+            android:name=".layoutpertama"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

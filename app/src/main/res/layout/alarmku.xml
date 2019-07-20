@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/foto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="203dp"
+            android:layout_height="136dp"
+            android:layout_gravity="center"
+            android:background="@drawable/masjid" />
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="Alarm Sholat"
+            android:textSize="15pt" />
+
+    </LinearLayout>
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="#6BFFFFFF">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:textColor="#000"
+            android:layout_gravity="left"
+            android:paddingLeft="30dp"
+            android:paddingTop="15dp"
+            android:text="Subuh"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/alarmprompt1"
+            android:layout_width="174dp"
+            android:textColor="#000"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:paddingLeft="30dp"
+            android:paddingTop="19dp"
+            android:text=""
+            android:textSize="24dp" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="20dp"
+            android:background="@color/colorAccent"
+            android:text="Set"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+    </FrameLayout>
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="#6BFFFFFF">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_gravity="left"
+            android:textColor="#000"
+            android:paddingLeft="30dp"
+            android:paddingTop="15dp"
+            android:text="Dzuhur"
+            android:textSize="24dp" />
+
+        <TextView
+            android:layout_width="174dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:textColor="#000"
+            android:id="@+id/alarmprompt2"
+            android:paddingLeft="30dp"
+            android:paddingTop="19dp"
+            android:text=""
+            android:textSize="24dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="20dp"
+            android:background="@color/colorAccent"
+            android:text="Set"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+    </FrameLayout>
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="#6BFFFFFF">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_gravity="left"
+            android:paddingLeft="30dp"
+            android:textColor="#000"
+            android:paddingTop="15dp"
+            android:text="Ashar"
+            android:textSize="24dp" />
+
+        <TextView
+            android:layout_width="174dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:textColor="#000"
+            android:paddingLeft="30dp"
+            android:paddingTop="19dp"
+            android:id="@+id/alarmprompt3"
+            android:text=""
+            android:textSize="24dp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="20dp"
+            android:background="@color/colorAccent"
+            android:text="Set"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+    </FrameLayout>
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="#6BFFFFFF">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_gravity="left"
+            android:paddingLeft="30dp"
+            android:textColor="#000"
+            android:paddingTop="15dp"
+            android:text="Magrib"
+            android:textSize="24dp" />
+
+        <TextView
+            android:layout_width="174dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:paddingLeft="30dp"
+            android:paddingTop="19dp"
+            android:textColor="#000"
+            android:id="@+id/alarmprompt4"
+            android:text=""
+            android:textSize="24dp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="20dp"
+            android:background="@color/colorAccent"
+            android:text="Set"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+    </FrameLayout>
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="#6BFFFFFF">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_gravity="left"
+            android:paddingLeft="30dp"
+            android:paddingTop="15dp"
+            android:textColor="#000"
+            android:text="Isya"
+            android:textSize="24dp" />
+
+        <TextView
+            android:layout_width="174dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:paddingLeft="30dp"
+            android:textColor="#000"
+            android:id="@+id/alarmprompt5"
+            android:paddingTop="19dp"
+            android:text=""
+            android:textSize="24dp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="20dp"
+            android:background="@color/colorAccent"
+            android:text="Set"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+    </FrameLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="#6BFFFFFF" />
+
+</LinearLayout>
